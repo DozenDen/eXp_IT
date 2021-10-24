@@ -1,0 +1,25 @@
+{%extends "base_admin.html"%}
+
+{%block main%}
+<form name = “add_article” method="post" action="/add_post">
+			<h2>_add a new post_</h2>
+			<p>Post title</p>
+			<input name="title" type="text" required>
+			<p>Post text</p>
+			<textarea name="text" required rows="15" cols="100"></textarea>
+			<p>Image URL</p>
+			<input name="URL" type="url" required >
+			<p>Subject</p>
+			<select style="font-size: 20px" name="continent" required>
+				<option>It_news</option>
+				<option>User_experience</option>
+				<option>Soft</option>
+				<option>Code</option>
+				<option>Game</option>
+				<option>Pc</option>
+			</select><br>
+			<button name="submit" type="submit">>>add_post<<</button>
+			<button name="reset" type="reset">>>reset<<</button>
+</form>
+
+{%endblock%}

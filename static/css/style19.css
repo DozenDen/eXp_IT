@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.about{
+	background-color: black;
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    text-indent: 30px;
+    line-height: 40px;
+    text-align: justify;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.menu{
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.menu li{
+    padding: 5px;
+    list-style: none;
+ }
+
+.menu a{
+    text-decoration: none;
+    color: #1c9c25;
+ }
+ 
+.logo{
+    height: 600px;
+    background-image: url('../images/Fon.gif');
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 150px;
+}
+
+.logo p{
+   padding-top: 100px;
+   font-size: 30px;
+   color: white;
+   text-shadow: 2px 2px 2px black;
+
+}
+
+footer{
+	background-color: black;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 65px ;
+    padding-bottom: 15px;
+}
+
+form{
+	margin: 50px;
+	font-size: 30px;
+	text-align: center;
+	
+}
+h2{
+    font-size: 50px;
+    
+}
+form{
+	margin: 50px;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+input{
+	width: 400px;
+	font-size: 20px;
+	
+}
+
+option{
+	font-size: 20px
+}
+
+button{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	margin: 15px;
+	padding: 10px;
+	
+}
+
+.welcome_user{
+    padding:10px;
+    font-size:20px;
+}
+
+.logo_article{
+    height: 600px;
+    background-image: url('../images/artikles_fon.gif');
+    background-size: cover;
+    text-align: center;
+}
+
+.link{
+    color:white;
+    text-decoration:none;
+
+}
+
+.container{
+    border: solid 3px #9fa59d;
+    margin: 30px 100px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+}
+
+.post_more{
+    color: white;
+    font-size: 20px;
+}
+
+.post_img{
+    width: 270px;
+    overflow: hidden;
+}
+
+.post_img img{
+    height:390px;
+}
+
+.article_text{
+    max-width: 850px;
+    padding: 20px;
+}
+
+.text{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 15px;
+    max-height: 160px;
+    overflow: hidden;
+}
+
+.article_text h3{
+    color: #47d147;
+}
+
+.details{
+    color: #9fa59d;
+    font-size: 15px;
+    margin: 30px 0
+}
+
+.ful_text{
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.full_post_container{
+    border: solid 3px #9fa59d;
+    margin: 30px 100px 30px 100px;
+    padding: 20px;
+}
+
+.full_post_img{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.delete_form{
+}
+
+.delete_text{
+    display: flex;
+    text-align: center;
+}
+
+.Mon{
+    color: white;
+}
+
+.warning{
+    color: #e02626;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.post_logo{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 80px;
+}

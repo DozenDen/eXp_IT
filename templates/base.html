@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html><!-- початок html сторінки -->
+	<head>
+		<!-- Тут важлива інформація для відображення html сторінки -->
+		<title> Rediscover the World! </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../static/css/style19.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class="menu" >
+					<li><a href="/">>_ host</a></li>
+					<li><a href="/posts">>_ posts</a></li>
+				</ul>
+			</nav>
+			<div class="welcome_user">
+
+				{%block welcome%}
+				{%endblock%}
+			</div>
+		</header>
+
+		<main>
+			{%block main%}
+			{%endblock%}
+		</main>
+
+		<footer>
+			<p>
+				Copyright ©The site is absolutely safe and legal, confirmed by the
+				"<a href="https://disney.fandom.com/wiki/Monsters,_Inc._(company)" class="Mon">Monster, inc.</a>"
+				(͡° ͜ʖ ͡°)
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+{%extends "base.html"%}
+
+{%block welcome%}
+	{%if user_name%}
+		<p>What's up, {{user_name}}</p>
+	{%else%}
+		<p> What's up net_stalker</p>
+	{%endif%}
+{%endblock%}
+
+{%block main%}
+	<section class="logo">
+		<h1>With the connection user_name</h1>
+				<p style="">This is a site where you can share your IT experience in any field,<br>be it games, software, websites.<br></p>
+			</section>
+			<section class="about">
+				<h1 class="warning">Warning<br></h1>
+					<p class="text">This site is a fake created by a neural network,<br>
+						do not trust anything and never, especially on the Internet.<br>
+						All coincidences with real people are accidental,<br>
+						all material is photoshop and no more.</p>
+			</section>
+{%endblock%}
+
+
